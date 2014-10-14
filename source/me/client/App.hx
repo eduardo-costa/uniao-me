@@ -3,6 +3,7 @@ import haxor.core.Application;
 import haxor.core.Console;
 import haxor.platform.html.Entry;
 import js.Browser;
+import js.html.CanvasElement;
 
 /**
  * ...
@@ -14,7 +15,7 @@ class App extends Application
 
 	override public function Initialize():Void 
 	{
-		Console.Log("App> Initialize");
+		Console.Log("App> Initialize");		
 		Browser.document.body.style.removeProperty("display");		
 	}
 	

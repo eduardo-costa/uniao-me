@@ -6,6 +6,7 @@
 	<link href="favicon.png" rel="shortcut icon" type="image/x-icon">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css">
 	<meta name="fragment" content="!">
 	<meta name="description" content="Site de Save the Date para o casamento de Eduardo e Marília.">
@@ -22,10 +23,32 @@
 		<entry key="photo-front">image/photo/front.jpg</entry>		
 	</strings>
 
-	<div id="haxor">
-		<!--<container name="content" wh="100%">
-			<sprite pxy="50%" xy="50%" src="@photo-front"></sprite>
-		</container>-->
+	<div id="haxor" class="fill-wh">
+		<container name="content" wh="100%">
+			<div class="fill-wh" style="background-color:#fff;"></div>
+			<div class="pattern fill-wh"></div>
+			<container name="sections" wh="100%">
+				<container name="front" wh="100%">
+					<sprite name="vine-left" src="image/front/vine-left.png" xy="50%"   py="50%" px="550"></sprite>
+					<sprite name="vine-right" src="image/front/vine-right.png" xy="50%" py="50%" px="-360"></sprite>
+					<div class="front-frame frame-fx overflow-h">
+						<div class="background fill-wh"></div>
+						<div class="border-thin b0"></div>
+						<div class="border-thin b1"></div>
+						<div class="border-thin square"></div>
+					</div>
+					<container name="content" margin="95 0 35 35" xy="50%" py="50%" px="100%" w="450" h="600" style="background-color:rgba(255,0,0,0.0);">						
+						<sprite name="separator" x="50%" px="50%" y="5" src="image/front/header.png"></sprite>
+						<div class="title-std">
+							<strong><span class="t0">Save</span></strong>
+							<span class="t1">the</span>
+							<strong><span class="t2">Date</span></div></strong>
+					</container>
+					
+					
+				</container>
+			</container>
+		</container>
 	</div>
 		
 </body>
