@@ -1,7 +1,9 @@
 
-body 	{ margin: 0px; background-color:#eee; overflow: hidden; }
+body 	{ margin: 0px; background-color:#eee; overflow: auto; }
+.abs { position: absolute; }
+.rel { position: relative; }
 .fill-wh { position:absolute; width: 100%; height: 100%; }
-.overflow-h { overflow: hideen; }
+.overflow-h { overflow: hidden; }
 .pattern
 {
 	opacity: 0.1;

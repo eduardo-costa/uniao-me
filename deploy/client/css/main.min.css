@@ -1,2 +1,17 @@
-body{margin:0px;background-color:#eee;}
-
+body{margin:0px;background-color:#eee;overflow:auto;}
+.abs{position:absolute;}
+.rel{position:relative;}
+.fill-wh{position:absolute;width:100%;height:100%;}
+.overflow-h{overflow:hidden;}
+.pattern{opacity:0.1;background-image:url("../image/stripe32.jpg");background-repeat:repeat;}
+.front-frame{position:absolute;left:50%;top:50%;margin-left:-360px;margin-top:-270px;width:720px;height:540px;}
+.front-frame .background{background-color:#000;background-image:url("../image/front/background.jpg");background-position:100px center;background-size:100% 100%;background-repeat:no-repeat;border-radius:10px;}
+.frame-fx{box-shadow:0px 0px 20px 10px rgba(255,255,255,0.8);}
+.front-frame .border-thin{position:absolute;left:-10px;top:-10px;width:calc(100%+19px);height:calc(100%+19px);border:1px solid #ccc;border-radius:20px 20px 20px 20px;}
+.front-frame .square{border-radius:0px 0px 0px 0px;}
+.front-frame .b0{left:-5px;top:-14px;width:calc(100%+9px);height:calc(100%+28px);}
+.front-frame .b1{left:-14px;top:-5px;width:calc(100%+28px);height:calc(100%+9px);}
+.title-std{position:absolute;top:45px;width:100%;text-align:center;font-family:"Prosto One";color:#fff;font-size:40px;line-height:30px;}
+.title-std .t0{}
+.title-std .t1{font-family:"Parisienne";font-size:24px;vertical-align:middle;margin-left:-10px;margin-right:-10px;}
+.title-std .t2{}
