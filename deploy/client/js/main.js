@@ -11266,6 +11266,9 @@ me.client.App.prototype = $extend(haxor.core.Application.prototype,{
 	Initialize: function() {
 		haxor.core.Console.Log("App> Initialize");
 		window.document.body.style.removeProperty("display");
+		this.get_stage().Find("content.sections.front.content.button-gifts").get_element().onclick = function(ev) {
+			window.location.href = "http://www.originalway.com.br/ViagemPresenteDetalhe.aspx?id=17";
+		};
 	}
 	,__class__: me.client.App
 });
